@@ -13,9 +13,18 @@ body {
 header {
     background-color: #373b69;
     display: flex;
-    justify-content: flex-end;
     padding: 1rem;
+    justify-content: space-between;
+    align-items: center;
 }
+#header-h1 {
+    color: red;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 3rem;
+    
+}
+
 
 .search {
     background-color: transparent;
@@ -25,6 +34,8 @@ header {
     font-family: inherit;
     font-size: 1rem;
     padding: 0.5rem 1rem;
+    display: inline-flex;
+    
 }
 
 .search::placeholder {
